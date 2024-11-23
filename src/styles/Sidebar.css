@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap');
+
+.sidebar {
+  height: 100%;
+  width: 32.6vh;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 2  ;
+}
+
+.sidebarSmaller{
+  height: 100%;
+  width: 11.6vh;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 2  ;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  margin-top: 3.8rem;
+}
+.sidebar::-webkit-scrollbar-thumb { 
+  background: white;
+
+}
+.sidebar:hover::-webkit-scrollbar-thumb { 
+  background: #C8C8C8;
+}
+
+.sidebar-top{
+  padding: 1.4vh;
+  padding-left: 2.0vh;
+  width: 27.4vh;
+  /* padding: 0.5vh 0.5vh; */
+  position: fixed;
+  background-color: #ffffff;
+}
+
+.sidebar-top-opacity{
+  background-color: #ffffff63;
+}
+
+.ham-menu {
+  width: 3.3vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 1.1vh;
+  border-radius: 3rem;
+}
+
+.ham-menu:active {
+  background-color: #F0F0F0;
+}
+
+.site-icon{
+  width: 4.0vh;
+  margin-left: 2.2vh;
+  margin-right: 0.1vh;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.site-name{
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+  vertical-align: top;
+  font-size: 2.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.close-max{
+  display: none;
+  width: 0px;
+}
+
+.content ul {
+  background-color: white;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  margin-top: 3vh;
+  padding-top: 2.9rem;
+}
+.content ul li {
+  height: 5.6vh;
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+.content li .li-icon {
+  padding: 0.2vh 0.2vh;
+  vertical-align: middle;
+  margin-top: 0.9vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-bottom: 0.9vh;
+  color: #616161;
+}
+
+.content li .sidebar-txt{
+  display: inline;
+  /* vertical-align: middle; */
+  font-size: 0.88rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.content ul .active{
+  background-color: #e5e5e5 !important;
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-weight: bold;
+}
+
+.content ul .active:hover{
+  background-color: #d9d9d9 !important;
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-weight: bold;
+}
+
+.content ul li .active-icon{
+  color: #FF0000;
+}
+
+.content ul li:hover{
+  background-color: #F0F0F0;
+}
+
+.smaller-icon{
+  margin-left: 3.3vh !important;
+}
+
+hr{
+  border-color: rgba(0,0,0,0.1);
+  border-width: 0.1px;
+  margin-bottom: 2vh;
+}
+
+.sidebar-txt-2 {
+  margin-left: 3vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.92rem;
+  color: #606060;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.sidebar-txt-3 {
+  margin-left: 3vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #606060;
+  font-weight: 500;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+
+
+.close-min{
+  display: none;
+}
+
+.min-sidebar{
+  width: 4.5rem;
+}
+
+.min-sidebar ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  margin-top: 3vh;
+  padding-top: 2.5rem;
+}
+
+.min-sidebar ul li {
+  vertical-align: middle;
+  height: 4.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.min-sidebar li .li-content{
+  padding-top: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.min-sidebar li .li-icon {
+  padding: 0.2vh 0.2vh;
+  margin: auto;
+  display: block;
+  /* margin-top: 0.9vh; */
+  /* margin-left: 3vh;
+  margin-right: 3vh;
+  margin-bottom: 0.9vh; */
+  color: #616161;
+}
+
+.min-sidebar li .sidebar-txt{
+  display: inline;
+  text-align: center;
+  font-size: 0.65rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.min-sidebar ul .active{
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-weight: bold;
+  color: #c00;
+}
+
+.min-sidebar ul .active:hover{
+  background-color: #d9d9d9 !important;
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-weight: bold;
+}
+
+.min-sidebar ul li .active-icon{
+  color: #FF0000;
+}
+
+.min-sidebar ul li:hover{
+  background-color: #F0F0F0;
+}
+
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.no-sidebar{
+  display: none;
+}
+
+.sidebar-slide{
+  transition: all 0.5s;
+}
+
+
+
+/* Mobile screen responsive css */
+
+
+@media only screen and (max-width: 600px) {
+  .min-sidebar{
+    display: none;
+  }
+}
